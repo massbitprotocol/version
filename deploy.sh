@@ -1,9 +1,9 @@
 #!/bin/bash
 git reset --hard
 
-git fetch -p && git pull
-
 git switch release
+
+git fetch -p && git pull
 
 ENV=$1
 SERVICE=$2
