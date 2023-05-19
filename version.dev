@@ -1,4 +1,4 @@
-ZESTY=v0.2.1-stg-2
+ZESTY=v0.2.1-dev-6
 ZESTY_SO=v0.2.7-dev-7
 ZESTY_NGINX_SO=v0.2.6-dev-11
 JUICY=v0.0.22
