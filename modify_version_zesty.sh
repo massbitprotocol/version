@@ -16,7 +16,7 @@ case "$ENV" in
       ;;
       
     "stg")
-        ENV=".stg"
+        ENV=".staging"
       ;;
     "prod")
         ENV=""
