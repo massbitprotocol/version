@@ -55,6 +55,8 @@ esac
 
 
 # Push to github
+git add .
+
 git commit -am"chore: update $ENV $SERVICE to $TAG"
 
 git push
