@@ -22,8 +22,9 @@ case "$ENV" in
         ENV=""
       ;;
     *)
-      # Default case for unknown service names
+      # Default case for unknown env names
       echo "Unknown env: $ENV"
+      exit 1
       ;;
 esac
 
@@ -48,6 +49,7 @@ case "$SERVICE" in
     *)
       # Default case for unknown service names
       echo "Unknown service: $SERVICE"
+      exit 1
       ;;
 esac
 
