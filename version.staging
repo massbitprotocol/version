@@ -1,5 +1,5 @@
 ZESTY=v0.2.1-stg-2
 ZESTY_SO=v0.2.8-stg-1
 ZESTY_NGINX_SO=v0.2.8-stg-1
-JUICY=v0.0.22
+JUICY=v0.1.1-stg-2
 SSL=v0.3.3
