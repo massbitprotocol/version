@@ -2,4 +2,4 @@ ZESTY=v0.2.3-stg-10
 ZESTY_SO=v0.3.2-stg-2
 ZESTY_NGINX_SO=v0.3.2-stg-1
 JUICY=v0.1.2-stg-2
-SSL=v0.3.3
+ENVOY=v0.0.0

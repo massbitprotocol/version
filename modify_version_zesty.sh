@@ -33,10 +33,12 @@ ROOT_DIR=$(dirname $(realpath $0))
 
 # Modify the version file based on service
 case "$SERVICE" in
+    "envoy")
+        sed "s/ENVOY=.*/ENVOY=${TAG}/" ${ROOT_DIR}/version${ENV} > ${ROOT_DIR}/version${ENV}.tmp && mv ${ROOT_DIR}/version${ENV}.tmp ${ROOT_DIR}/version${ENV}
+      ;;
     "juicy")
         sed "s/JUICY=.*/JUICY=${TAG}/" ${ROOT_DIR}/version${ENV} > ${ROOT_DIR}/version${ENV}.tmp && mv ${ROOT_DIR}/version${ENV}.tmp ${ROOT_DIR}/version${ENV}
       ;;
-      
     "so-zesty-jr")
         sed "s/ZESTY_SO=.*/ZESTY_SO=${TAG}/" ${ROOT_DIR}/version${ENV} > ${ROOT_DIR}/version${ENV}.tmp && mv ${ROOT_DIR}/version${ENV}.tmp ${ROOT_DIR}/version${ENV}
       ;;
